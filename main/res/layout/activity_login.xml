@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#Fcdec0"
+        android:paddingTop="25dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:scrollbars="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"/>
+
+        <EditText
+            android:id="@+id/email_et"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+
+        <EditText
+            android:id="@+id/pwd_et"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Forgot Password"
+            android:textColor="#7d5a50"
+            android:textSize="15dp"
+            android:onClick="forgot_pwd"
+            android:textDirection="rtl" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="login"
+            android:text="@string/login_button"
+            android:backgroundTint="#7d5a50"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="OR"
+            android:clickable="false"
+            android:textAlignment="center"
+            android:textColor="#AC9D9D" />
+
+        <Button
+            android:id="@+id/reg_button"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="#7d5a50"
+            android:onClick="signUp"
+            android:text="@string/reg_button" />
+
+    </LinearLayout>
+</ScrollView>

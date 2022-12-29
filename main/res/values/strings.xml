@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Classify the Food</string>
+    <string name="text_classify">CLASSIFY</string>
+    <string name="text_the">the</string>
+    <string name="text_food">FOOD</string>
+    <string name="splash_img_desc">Splash Image</string>
+    <string name="login_button">Login</string>
+    <string name="reg_button">Sign UP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="help_fragment"><b>Suitable Usecases\n</b><ul><li>This model is trained to recognize 2023 food dishes.\n</li><li>The training set includes entrees, side dishes, desserts, snacks, etc.\n\n</li><b>Unsuitable Usecases\n</b><li>Do not use this model to determine whether an object is edible or not.\n</li><li>This model is not suitable for predicting the ingredients of a food dish.\n</li><li>Do not use this model to predict allergen or nutrition information.\n\n</li><b>Known Limitations\n</b><li>This model assumes that its input image contains a well-cropped food dish.\n</li><li>If a non-food image is input to the model or if the dish is not well-cropped, the output of the model may be meaningless.</li></ul>
+
+    </string>
+</resources>
